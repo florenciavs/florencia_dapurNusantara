@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAPOER NUSANTARA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loader"></div>
+    <div id="isi">    
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-5">
+                    <input type="text" id="keyword" placeholder="Masakan"> &nbsp;
+                        <button class="btn btn-outline-success" type="submit" style="width:130px">Cari Resep</button>
+                      </form>
+    </div>
+</div>
+            <a class="navbar-brand fw-bolder text-success fs-4" href="index.html">DAPOER NUSANTARA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <ul class="nav nav-underline" style="margin-top: 5rem; margin-left: 5rem;">
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="index.html">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active fw-bold" aria-current="page" href="#">Resep</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="about.html">Tentang kami</a>
+        </li>
+      </ul>
+    <br>
+            <div class="jumbotron">
+                <div class="row shadow">
+                    <div class="row">
+                    <div class="col text-center" style="background: rgb(129, 164, 129);">
+                        <p style="font-weight:semi-bold; color: white; margin-top: 5rem;">PICK OF THE WEEK</p>
+                        <h2 class="text-light">SOP IGA SAPI</h2><br>
+                        <p style="width:60%;font-size: small; color: white;margin-left: 20%; text-align: center;">Masakan berkuah yang memiliki banyak manfaat bagi tubuh serta menjadi favorit semua umur! Mudah dibuat namun penuh dengan cita rasa khas Nusantara.</p>
+                        <a class="btn text-light mt-3" style="margin-left: -30px;" id="view" type="submit" href="jawa.html">Lihat Resep ></a>
+                    </div>
+                    <div class="col">
+                        <img src="sop iga.jpg" style="width: 40rem;">
+                    </div>
+                    </div>
+                </div><br><br>
+                <h2 class="my-5 text-center fst-italic">Resep</h2>
+                <hr style="border:2px solid black;">
+                <nav class="navbar navbar-expand-lg bg-transparent">
+                    <div class="container-fluid text-center">
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav ms-5 text-center">
+                                <a id="active1" class="nav-link fw-bold" aria-current="page" href="#" id="active1" style="margin-left: 25rem;">Semua Resep</a> &nbsp;&nbsp;
+                        <a class="nav-link text-dark" href="jawa.html">Jawa</a> &nbsp;&nbsp;&nbsp;
+                        <a class="nav-link text-dark" href="dki.html">DKI</a> &nbsp;&nbsp;&nbsp;
+                        <a class="nav-link text-dark" href="sumatra.html">Sumatera</a> 
+                </div>
+                </div>
+                </div>
+                </nav>
+                <hr style="border:2px solid black;">
+                  <br><br>
+                <div id="resep">
+                <div class="row ms-3 mb-5">
+                    <a class="col text-center text-decoration-none" href="dki.html">
+                        <div class="card" style="width: 20rem;" href="dki.html">
+                            <img class="card-img-top" src="soto betawi.jpg">
+                            <div class="card-body">
+                              <p class="card-text " style="color: green; font-size: small;"> Lama masak: 50 menit</p>
+                              <p class="card-text fw-bold fs-4">Soto Betawi</p>
+                            </div>
+                            </div>
+                          </a>
+                    
+                    <a class="col text-center text-decoration-none" href="jawa.html">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="gudeg.jpg">
+                            <div class="card-body">
+                              <p class="card-text " style="color: green; font-size: small;"> Lama masak: 1 Jam 20 menit</p>
+                              <p class="card-text fw-bold fs-4">Gudeg Jogja</p>
+                            </div>
+                          </div>
+                        </a>
+                    <a class="col text-center text-decoration-none" href="sumatra.html">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="mi aceh.jpg">
+                            <div id="tag">Menu Baru</div>
+                            <div class="card-body">
+                              <p class="card-text" style="color: green; font-size: small; margin-top: 215px;"> Lama masak: 40 menit</p>
+                              <p class="card-text fw-bold fs-4">Mi Aceh</p>
+                            </div>
+                          </div>
+                        </a>
+                </div>
+                <div class="row ms-3 mb-5">
+                    <a class="col text-center text-decoration-none" href="sumatra.html">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="rendang.jpeg">
+                            <div class="card-body">
+                              <p class="card-text " style="color: green; font-size: small;"> Lama masak: 45 Menit</p>
+                              <p class="card-text fw-bold fs-4">Rendang</p>
+                            </div>
+                          </div>
+                        </a>
+                    <a class="col text-center text-decoration-none" href="jawa.html">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="ayam cabe ijo.png" alt="Card image cap">
+                            <div class="card-body">
+                              <p class="card-text " style="color: green; font-size: small;"> Lama masak: 45 menit</p>
+                              <p class="card-text fw-bold fs-4">Ayam Cabe Ijo</p>
+                            </div>
+                          </div>
+                        </a>
+                    <a class="col text-center text-decoration-none" href="dki.html">
+                        <div class="card" style="width: 20rem">
+                            <img class="card-img-top" src="laksa.jpg">
+                            <div class="card-body">
+                              <p class="card-text " style="color: green; font-size: small;"> Lama masak: 1 Jam 15 menit</p>
+                              <p class="card-text fw-bold fs-4">Laksa Betawi</p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                </div>
+                <div class="jumbotron bg-dark text-light text-center mt-5 p-3" style="width: 100%; margin-top: 30px;">
+                    <h4>DAPOER NUSANTARA</h4>
+                    Resep masakan khas nusantara dari para ahli
+                    <br><br>
+                    <i class="bi bi-google"></i> &nbsp;
+                    <i class="bi bi-envelope"></i> &nbsp;
+                    <i class="bi bi-instagram"></i>
+                    <hr size="5" color="white" width="70%" style="margin-left: 15%;">
+                    <p style="font-size: 14px;">&copy;Copyright 2023 - Created by Florencia</p> 
+                </div>
+            </div>
+
+            <script>
+                var loader = document.querySelector(".loader");
+                window.addEventListener("load", jeda);
+                function jeda(){
+                    loader.classList.add("disappear");
+                }
+                const cari = document.getElementById("search");
+                const kata = document.getElementsByName("keyword");
+                const Menu = ["sop iga sapi", "sop iga", "gudeg", "ayam cabe ijo", "ayam", "ayam cabai ijo", "rendang", "semur jengkol", "jengkol", "semur", "soto betawi", "soto", "laksa", "mi", "mi aceh", "dendeng balado", "dendeng", "balado"]; 
+                cari.addEventListener('click', event=> {
+                  search();
+                });
+                cari.addEventListener('keyup', event => {
+                  if(event.keyCode === 13){
+                    search();
+                  }
+                })
+                function search(){
+                  const cariData = kata.values.toLowerCase();
+                  const data = Menu.slice(0);
+                  for(let i = 0; i < Menu.length; i++){
+                      if(data[i].toLowerCase().includes(cariData)){
+                          window.open(url("#"))
+                      }
+
+
+                }
+                if(cari!= ""){
+                    }
+                }
+            </script>
+</body>
+</html>
